@@ -31,6 +31,7 @@ angular.module("internationalPhoneNumber", []).directive 'internationalPhoneNumb
       onlyCountries:      undefined
       preferredCountries: ['us', 'gb']
       responsiveDropdown: false
+      geoIpLookup         null
       utilsScript:        ""
 
     angular.forEach options, (value, key) ->
