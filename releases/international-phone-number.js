@@ -29,6 +29,7 @@
           onlyCountries: void 0,
           preferredCountries: ['us', 'gb'],
           responsiveDropdown: false,
+          geoIpLookup: null,
           utilsScript: ""
         };
         angular.forEach(options, function(value, key) {
