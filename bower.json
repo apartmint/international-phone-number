@@ -6,6 +6,6 @@
   "license": "MIT",
   "dependencies": {
     "angular": ">1.2.0",
-    "intl-tel-input": "~5.8.0"
+    "intl-tel-input": "~6.0.0"
   }
 }
